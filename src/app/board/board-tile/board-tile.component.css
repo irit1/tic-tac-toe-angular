@@ -1,0 +1,23 @@
+.app-board-tile {
+    background-color: #e0e0e0;
+    display: inline-flex;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    vertical-align: middle;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.app-board-tile span {
+    align-self: center;
+}
+
+.app-board-tile:hover, .app-board-tile.app-tile-set {
+    background-color: #eaeaea;
+}
+
+.app-board-tile.app-tile-set.app-tile-won {
+    background-color: bisque;
+}
